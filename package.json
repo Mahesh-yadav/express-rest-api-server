@@ -1,0 +1,27 @@
+{
+  "name": "rest-api-json",
+  "version": "1.0.0",
+  "description": "A REST API server using .json file as data source",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon dist/app.js",
+    "fake": "node dist/utils/generateFakeData",
+    "compile": "babel --watch src --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "faker": "^4.1.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cuid": "^2.1.8",
+    "express": "^4.17.1"
+  }
+}

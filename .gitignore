@@ -1,0 +1,8 @@
+node_modules
+
+# dist/ excludes dir dist and everything under it
+# dist/* exludes everything under dist but not dist
+dist/*
+
+# include public directory
+!dist/public
