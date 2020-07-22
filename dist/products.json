@@ -1,7 +1,8 @@
 [
-  { "id": "ckcwtrwuv00007kvs3g20htwo", "name": "Hat", "price": "405.00" },
-  { "id": "ckcwtrwuv00017kvs1s6y21ir", "name": "Pizza", "price": "159.00" },
-  { "id": "ckcwtrwuv00027kvs9axv3js5", "name": "Gloves", "price": "206.00" },
-  { "id": "ckcwtrwuv00037kvs0r7422wd", "name": "Chair", "price": "202.00" },
-  { "id": "ckcwtrwuv00047kvs0lez8har", "name": "Computer", "price": "173.00" }
+  { "id": "ckcwxiqup0000bkvs1eyq6n7f", "name": "Fish", "price": 579 },
+  { "id": "ckcwxiquq0001bkvs4lvp0wjy", "name": "Table", "price": 235 },
+  { "id": "ckcwxiquq0002bkvscrej4er6", "name": "Mouse", "price": 684 },
+  { "id": "ckcwxiquq0003bkvs3mb3ep0v", "name": "Bike", "price": 603 },
+  { "id": "ckcwxiquq0004bkvs3rr729iw", "name": "Chair", "price": 399 },
+  { "name": "Shirt", "price": 220, "id": "ckcwxyo8b0000b0vs0oqlanxd" }
 ]

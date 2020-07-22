@@ -11,7 +11,7 @@ const products = [];
 for (let i = 0; i < 5; i++) {
   const id = cuid();
   const name = faker.commerce.product();
-  const price = faker.commerce.price();
+  const price = Number(faker.commerce.price());
 
   products.push({
     id,
