@@ -70,3 +70,29 @@ export const addProduct = (req, res) => {
     res.json(product);
   }
 };
+
+export const deleteProduct = (req, res) => {
+  const products = loadData();
+  const { productId } = req.params;
+
+  const productIndex = products.findIndex((p) => p.id === productId);
+
+  if (productIndex !== -1) {
+    const product = products[productIndex];
+    products.splice(productIndex, 1);
+
+    saveData(products);
+
+    res.status(200);
+    res.json(product);
+  } else {
+    res.status(404);
+    res.json({
+      success: false,
+      error: {
+        code: 404,
+        info: `product does not exist. id: ${productId}`,
+      },
+    });
+  }
+};
