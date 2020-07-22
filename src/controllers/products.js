@@ -96,3 +96,39 @@ export const deleteProduct = (req, res) => {
     });
   }
 };
+
+export const updateProduct = (req, res) => {
+  const products = loadData();
+  const { productId } = req.params;
+  const { name, price } = req.body;
+
+  const productIndex = products.findIndex((p) => p.id === productId);
+
+  if (productIndex !== -1) {
+    const updatedProduct = { ...products[productIndex] };
+
+    if (name) {
+      updatedProduct.name = name;
+    }
+
+    if (price) {
+      updatedProduct.price = price;
+    }
+
+    products[productIndex] = updatedProduct;
+
+    saveData(products);
+
+    res.status(200);
+    res.json(updatedProduct);
+  } else {
+    res.status(404);
+    res.json({
+      success: false,
+      error: {
+        code: 404,
+        info: `product does not exist. id: ${productId}`,
+      },
+    });
+  }
+};

@@ -4,6 +4,7 @@ import {
   getProduct,
   addProduct,
   deleteProduct,
+  updateProduct,
 } from '../controllers/products';
 
 const router = express.Router();
@@ -19,5 +20,8 @@ router.post('/', addProduct);
 
 // /api/products/:productId
 router.delete('/:productId', deleteProduct);
+
+// /api/products/:productId
+router.patch('/:productId', updateProduct);
 
 export default router;
