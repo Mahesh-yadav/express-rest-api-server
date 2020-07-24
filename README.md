@@ -67,8 +67,8 @@ This project implements an **Express.js** API server following REST pattern. It 
 ## Scripts
 
 1. `yarn install` -- To install product dependencies
-2. `yarn fake` -- To generate fake products data and store in `products.json` file.
+2. `yarn fake [-n]` -- To generate fake products data and store in `products.json` file. By default the script generates 5 fake products. You can provides optional argument `-n` to specify the number of products to generate
 
-3. `yarn compile` -- To compile code using **Babel** in watch mode
+3) `yarn compile` -- To compile code using **Babel** in watch mode
 
-4. `yarn start` -- To start server in watch mode at **localhost:3000**
+4) `yarn start` -- To start server in watch mode at **localhost:3000**
