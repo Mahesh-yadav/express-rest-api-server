@@ -1,8 +1,1 @@
-[
-  { "id": "ckcwxiqup0000bkvs1eyq6n7f", "name": "Fish", "price": 579 },
-  { "id": "ckcwxiquq0001bkvs4lvp0wjy", "name": "Table", "price": 235 },
-  { "id": "ckcwxiquq0002bkvscrej4er6", "name": "Mouse", "price": 684 },
-  { "id": "ckcwxiquq0003bkvs3mb3ep0v", "name": "Bike", "price": 603 },
-  { "id": "ckcwxiquq0004bkvs3rr729iw", "name": "Chair", "price": 399 },
-  { "name": "Shirt", "price": 300, "id": "ckcwynkpo0000v0vsaao54ucn" }
-]
+[{"id":"ckcwxiqup0000bkvs1eyq6n7f","name":"Fish","price":579},{"id":"ckcwxiquq0001bkvs4lvp0wjy","name":"Table","price":235},{"id":"ckcwxiquq0002bkvscrej4er6","name":"Mouse","price":684},{"id":"ckcwxiquq0003bkvs3mb3ep0v","name":"Bike","price":603},{"id":"ckcwxiquq0004bkvs3rr729iw","name":"Chair","price":399},{"name":"Shirt","price":300,"id":"ckcwynkpo0000v0vsaao54ucn"}]
