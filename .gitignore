@@ -7,4 +7,4 @@ dist/*
 # include public directory
 !dist/public
 
-!dist/products.json
+products.json

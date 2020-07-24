@@ -63,3 +63,12 @@ This project implements an **Express.js** API server following REST pattern. It 
 | ------------- | ---------------- | ---------------------------- |
 | 200 OK        | deleted Product! |                              |
 | 404 NOT FOUND | Error            | If `productId` doesn't exist |
+
+## Scripts
+
+1. `yarn install` -- To install product dependencies
+2. `yarn fake` -- To generate fake products data and store in `products.json` file.
+
+3. `yarn compile` -- To compile code using **Babel** in watch mode
+
+4. `yarn start` -- To start server in watch mode at **localhost:3000**
